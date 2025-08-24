@@ -1,0 +1,12 @@
+data:
+  raw:
+    mobile: data\raw\test.csv
+    combined: data\raw\Combined_dataset.csv
+    flipkart: data\raw\flipkart_com-ecommerce_sample.csv
+  processed:
+    unified: data\processed\unified_ecommerce_dataset.csv
+app:
+  gemini_api_key: AIzaSyATFMGFyf5UxUaP7C_qJq1gzbyT97SQwMk
+model:
+  path: app\best_model.joblib
+  preprocessor: app\preprocessor.joblib
